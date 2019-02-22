@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 1189f26b29c8fae49b736561850e9958
+guid: 39f50673f3dd44f7cbce9af7106bb890
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Habaneo1_0
-    21300002: Habaneo1_1
-    21300004: Habaneo1_2
-    21300006: Habaneo1_3
+    21300000: ELLIMON_0
+    21300002: ELLIMON_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -88,13 +86,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Habaneo1_0
+      name: ELLIMON_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 33
-        width: 23
-        height: 31
+        x: 45
+        y: 297
+        width: 198
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,19 +100,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56e74551153144785b88063941be451e
+      spriteID: 153d254e9b4f642f78cb7efe04325f83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Habaneo1_1
+      name: ELLIMON_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 37
-        width: 31
-        height: 23
+        x: 45
+        y: 18
+        width: 198
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,47 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab48e6cad8a54a6c8eca37b42584fcc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Habaneo1_2
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 0
-        width: 23
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8884f89dc0f7f4d31b5f6791aa5ba61e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Habaneo1_3
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 4
-        width: 31
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e49377abea44a403790030e302482fa4
+      spriteID: f59e2d969f4714fef820a8645e8ca184
       vertices: []
       indices: 
       edges: []
@@ -170,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ef8df37535ade7b42a3c4ca952eaf1b7
+    spriteID: fb0090b69d9154e739d1f8893e1d0e06
     vertices: []
     indices: 
     edges: []
