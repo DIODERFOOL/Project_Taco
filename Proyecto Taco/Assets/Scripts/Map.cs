@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class Map : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject mapElement;
+    private bool showMap;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("m"))
+        if (Input.GetKeyDown("m"))
         {
-            Debug.Log("Show mapperino");
+            showMap = !showMap;
+            mapElement.SetActive(showMap);
         }
     }
 }
