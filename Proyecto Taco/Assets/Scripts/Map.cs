@@ -5,6 +5,7 @@ using UnityEngine;
 public class Map : MonoBehaviour
 {
     public GameObject mapElement;
+    public GameObject miniMapElement;
     private bool showMap;
 
     void Start()
@@ -18,6 +19,7 @@ public class Map : MonoBehaviour
         {
             showMap = !showMap;
             mapElement.SetActive(showMap);
+            miniMapElement.SetActive(!showMap);
         }
     }
 }
