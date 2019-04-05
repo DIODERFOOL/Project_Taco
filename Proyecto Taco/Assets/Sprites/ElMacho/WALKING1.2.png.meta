@@ -1,11 +1,17 @@
 fileFormatVersion: 2
-guid: 294f2e14dee7d6c4a80dda9f13ea80fc
+guid: 65b53692327f7e64a920af92a5dee8d2
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ElMachoWALKING_0
-    21300002: ElMachoWALKING_1
-    21300004: ElMachoWALKING_2
-    21300006: ElMachoWALKING_3
+    21300000: WALKING1.2_0
+    21300002: WALKING1.2_1
+    21300004: WALKING1.2_2
+    21300006: WALKING1.2_3
+    21300008: WALKING1.2_4
+    21300010: WALKING1.2_5
+    21300012: WALKING1.2_6
+    21300014: WALKING1.2_7
+    21300016: WALKING1.2_8
+    21300018: WALKING1.2_9
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -110,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ElMachoWALKING_0
+      name: WALKING1.2_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 660
-        width: 330
-        height: 620
+        x: 39
+        y: 582
+        width: 99
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,19 +130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d892187cf45f34785a877835251e54
+      spriteID: 3ebde8b3c2c4fef48990b64a42394c7e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElMachoWALKING_1
+      name: WALKING1.2_1
       rect:
         serializedVersion: 2
-        x: 770
-        y: 670
-        width: 330
-        height: 610
+        x: 231
+        y: 585
+        width: 99
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e06f820813fc25429e9b506dee845fc
+      spriteID: 3f61ef878fee5864eaa01519ca80e345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElMachoWALKING_2
+      name: WALKING1.2_2
       rect:
         serializedVersion: 2
-        x: 130
-        y: 0
-        width: 330
-        height: 640
+        x: 423
+        y: 576
+        width: 99
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,19 +170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf5815d358ea87429b9edd3833dbac9
+      spriteID: 5bf7544c8a7a98f45b42c91f495a34a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElMachoWALKING_3
+      name: WALKING1.2_3
       rect:
         serializedVersion: 2
-        x: 770
-        y: 0
-        width: 330
-        height: 640
+        x: 39
+        y: 384
+        width: 99
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +190,127 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc100e8e0ead53469b2e59ac6fe4fca
+      spriteID: 9ee765cd21f29854e9a7a7abd9a47003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKING1.2_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 402
+        width: 99
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61355db170e817489c098e712e5d92e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKING1.2_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 402
+        width: 99
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dba82a0ad46ca43a7d98dd59d6f7cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKING1.2_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 210
+        width: 99
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac484922c5ad7a4cb65ce3ffbc82453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKING1.2_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 210
+        width: 99
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bba0aee258e16c41a11d9b4172a1a80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKING1.2_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 210
+        width: 99
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd47404cdf0e65c4795349b5d64dbf8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WALKING1.2_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 18
+        width: 99
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ddf58aec6176746b4a8f440f6b4201
       vertices: []
       indices: 
       edges: []
@@ -192,7 +318,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 76e80b5e3eb7b4e4eadb12d1f77c06ee
+    spriteID: c3d0bb99ed99ea7479dfa292cf3446e4
     vertices: []
     indices: 
     edges: []
