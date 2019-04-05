@@ -17,6 +17,8 @@ namespace Gamekit2D
             if(m_MonoBehaviour.CheckForMeleeAttackInput())
                 m_MonoBehaviour.MeleeAttack ();
             m_MonoBehaviour.CheckAndFireGun ();
+            if (m_MonoBehaviour.CheckForJumpInput() )
+                m_MonoBehaviour.SetVerticalMovement(m_MonoBehaviour.jumpSpeed);
             m_MonoBehaviour.CheckForCrouching ();
         }
     }
