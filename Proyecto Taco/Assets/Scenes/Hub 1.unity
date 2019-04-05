@@ -1971,8 +1971,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\xA1Ir solo es muy peligroso! Recuerda que puedes atacar enemigos presionando
-    <b>C</b>."
+  m_Text: "\xA1Ir solo es muy peligroso! Si te sientes perdido en alg\xFAn momento,
+    presiona <b>M</b> para ver el mapa con los lugares que has descubierto en tu viaje!"
 --- !u!222 &1403652125
 CanvasRenderer:
   m_ObjectHideFlags: 0
