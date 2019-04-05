@@ -114,6 +114,8 @@ namespace Gamekit2D
         //used in non alloc version of physic function
         protected ContactPoint2D[] m_ContactsBuffer = new ContactPoint2D[16];
 
+        public bool canDoubleJump = true;
+
         // MonoBehaviour Messages - called by Unity internally.
         void Awake()
         {

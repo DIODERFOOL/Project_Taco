@@ -23,6 +23,10 @@ namespace Gamekit2D
                 m_MonoBehaviour.SetVerticalMovement(m_MonoBehaviour.jumpSpeed);
             else if(m_MonoBehaviour.CheckForMeleeAttackInput ())
                 m_MonoBehaviour.MeleeAttack();
+            if (m_MonoBehaviour.CheckForGrounded() == true)
+            {
+                m_MonoBehaviour.canDoubleJump = true;
+            }
         }
     }
 }
