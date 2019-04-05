@@ -37,7 +37,7 @@ public class SpeechHUDRoom : MonoBehaviour
         {
             showPinata = true;
             pinataTextCanvas.SetActive(showPinata);
-            alternativePinata.text = "Adelante encontrarás el cenote sagrado. ¡Dicen que en sus profundidades uno puede cumplir cualquier deseo! Suerte, Sánchez.";
+            alternativePinata.text = "Adelante encontrarás el cenote sagrado. ¡Dicen que en sus profundidades uno puede cumplir cualquier deseo! Suerte, <b>Macho</b>.";
         }
         else
         {
