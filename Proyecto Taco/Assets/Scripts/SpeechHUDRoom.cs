@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpeechHUDRoom : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class SpeechHUDRoom : MonoBehaviour
 
     private bool showPinata;
     private bool showTaquero;
+
+    public Text alternativePinata; 
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +32,12 @@ public class SpeechHUDRoom : MonoBehaviour
         {
             showTaquero = true;
             taqueroTextCanvas.SetActive(showTaquero);
+        }
+        else if (position.x >= 60 && position.x <= 65)
+        {
+            showPinata = true;
+            pinataTextCanvas.SetActive(showPinata);
+            alternativePinata.text = "Adelante encontrarás el cenote sagrado. ¡Dicen que en sus profundidades uno puede cumplir cualquier deseo! Si te sientes perdido, presiona <b>M</b> para abrir el mapa!";
         }
         else
         {
