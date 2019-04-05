@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Security.Principal;
 using UnityEngine;
@@ -37,7 +36,6 @@ namespace Gamekit2D
         public float gravity = 50f;
         public float jumpSpeed = 20f;
         public float jumpAbortSpeedReduction = 100f;
-        public bool canDoubleJump = true;
 
         [Range(k_MinHurtJumpAngle, k_MaxHurtJumpAngle)] public float hurtJumpAngle = 45f;
         public float hurtJumpSpeed = 5f;
@@ -56,8 +54,6 @@ namespace Gamekit2D
         public float bulletSpeed = 5f;
         public float holdingGunTimeoutDuration = 10f;
         public bool rightBulletSpawnPointAnimated = true;
-        
-        public bool chooseAtack = true;
 
         public float cameraHorizontalFacingOffset;
         public float cameraHorizontalSpeedOffset;
@@ -118,11 +114,11 @@ namespace Gamekit2D
         //used in non alloc version of physic function
         protected ContactPoint2D[] m_ContactsBuffer = new ContactPoint2D[16];
 
-        
-       
+        public bool canDoubleJump = true;
 
         // MonoBehaviour Messages - called by Unity internally.
-        void Awake() {
+        void Awake()
+        {
             s_PlayerInstance = this;
 
             m_CharacterController2D = GetComponent<CharacterController2D>();
@@ -813,27 +809,6 @@ namespace Gamekit2D
         public void KeyInventoryEvent()
         {
             if (KeyUI.Instance != null) KeyUI.Instance.ChangeKeyUI(m_InventoryController);
-        }
-
-        public void cycleAttack() {
-            if (PlayerInput.Instance.cycleAttack.Down) {
-                if (!chooseAtack) {
-                    chooseAtack = true;
-                }
-                else {
-                    chooseAtack = false;
-                }
-            }
-        }
-
-        public void CheckForAttack() {
-            if (chooseAtack) {
-                CheckAndFireGun();
-            } else {
-                if (CheckForMeleeAttackInput()) {
-                    MeleeAttack();
-                }
-            }
         }
     }
 }
