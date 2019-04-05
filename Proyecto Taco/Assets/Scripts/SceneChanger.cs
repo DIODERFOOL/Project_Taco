@@ -23,8 +23,8 @@ public class SceneChanger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Entro en el camvio de escena");
-            SceneManager.LoadScene(loadLevel);
+            Debug.Log("Entro en el cambio de escena");
+            SceneManager.LoadScene("Room 1");
         }
     }
 }
