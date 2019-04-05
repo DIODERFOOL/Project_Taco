@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    public string levelToLoad;
     [SerializeField] private string loadLevel;
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class SceneChanger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Entro en el cambio de escena");
-            SceneManager.LoadScene("Room 1");
+            SceneManager.LoadScene(levelToLoad);
         }
     }
 }
