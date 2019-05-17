@@ -10,14 +10,14 @@ public class SpeechRoomB : MonoBehaviour
 
     private bool showMachoSpeech;
 
-    private bool mainDoorLocked;
+    //private bool mainDoorLocked;
     private bool door2Locked;
 
     public Text dynamicSpeech; 
     // Start is called before the first frame update
     void Start()
     {
-        mainDoorLocked = true;
+        //mainDoorLocked = true;
         door2Locked = true;
     }
 

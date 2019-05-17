@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+public class SceneChangerDyn : MonoBehaviour
 {
     public string levelToLoad;
-    //[SerializeField] private string loadLevel;
+    public string levelToLoadB;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,16 +16,21 @@ public class SceneChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    
-        
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Entro en el cambio de escena");
-            SceneManager.LoadScene(levelToLoad);
+            if (GManagerC.instance.getRoomStatus() == 0)
+            {
+                SceneManager.LoadScene(levelToLoad);
+            }
+            else
+            {
+                SceneManager.LoadScene(levelToLoadB);
+            }
         }
     }
 }

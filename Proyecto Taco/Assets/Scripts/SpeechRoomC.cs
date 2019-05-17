@@ -25,6 +25,7 @@ public class SpeechRoomC : MonoBehaviour
             showMachoSpeech = true;
             machoTextCanvas.SetActive(showMachoSpeech);
             dynamicSpeech.text = "¡He obtenido la <b>SALSA ROJA</b>! ¡Este <b>PICANTE</b> da una energía <b>INIGUALABLE</b>! <i> Presiona <b> V </b> para realizar un fuerte ataque de corto alcance. Sirve para romper <b>lianas y puertas atoradas</b>!</i>";
+            GManagerC.instance.clearRoomC();
         }
         else
         {
