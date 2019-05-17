@@ -27,21 +27,36 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scene/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6298b58a9ffb6934faac793b21b62316
+  - enabled: 1
     path: Assets/Scenes/Hub 1.unity
     guid: fe870ac7070d349fab17b7ee666bdb4b
   - enabled: 1
     path: Assets/Scenes/Room B.unity
     guid: 8370a02212571cf46ba6290b6dcea823
   - enabled: 1
+    path: Assets/Scenes/Room B2.unity
+    guid: 1e4bf08897cabd64b9f421e9e9660c3b
+  - enabled: 1
+    path: Assets/Scenes/Room B3.unity
+    guid: 166efa123b588b94ab93b10c9569e2a3
+  - enabled: 1
+    path: Assets/Scenes/Room C.unity
+    guid: a5f4c6eae93cb1d4cbb77d4fbd9e270d
+  - enabled: 1
+    path: Assets/Scenes/Room C2.unity
+    guid: f2340f03dcdf8a64d860140d5e32adca
+  - enabled: 1
     path: Assets/Scenes/Room D.unity
     guid: a9bde101d02014af4ba416b46f93eafa
   - enabled: 1
     path: Assets/Scenes/Room E.unity
     guid: 214383333127c7f44a8e7a2491a0d107
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room 5.unity
     guid: 052ad51a39f15c647ab2e8f82c2cddc0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Final Room.unity
     guid: 960b12f881940d84983273421bebc695
   - enabled: 0
