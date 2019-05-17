@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Room 5.unity
     guid: 052ad51a39f15c647ab2e8f82c2cddc0
   - enabled: 0
-    path: Assets/Scenes/BOSS.unity
+    path: Assets/Scenes/Final Room.unity
     guid: 960b12f881940d84983273421bebc695
   - enabled: 0
     path: 
